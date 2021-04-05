@@ -1,6 +1,10 @@
 clone repository: git clone: https://github.com/gmv98/PokeApi
 
 Run repository: npx react-native run-android
+-cuentas creadas:
+-pokeapis123@gmail.com pokeapis123
+
+-example123@pokeapi.com example123
 
 ● Debes hacer uso de la Pokéapi V2 (https://pokeapi.co/) (DONE)
 
