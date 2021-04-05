@@ -1,13 +1,13 @@
 clone repository: git clone: https://github.com/gmv98/PokeApi
+
 Run repository: npx react-native run-android
 
 ● Debes hacer uso de la Pokéapi V2 (https://pokeapi.co/) (DONE)
 
-● Tu aplicación debe usar Firebase Realtime Database (DONE)
+● Tu aplicación debe usar Firebase Realtime Database
 
 (https://firebase.google.com/docs/database/) para guardar cualquier tipo de datos de la
-aplicación.
-
+aplicación. (DONE)
 ● Cuando el usuario ingrese a la aplicación, deberá de tener disponibles todas las regiones de
 pokemon. (DONE)
 
