@@ -20,20 +20,21 @@ const UserHome = (props) => {
                     inactiveColor={Colors.accentColor}
                     barStyle={{ backgroundColor: Colors.primaryColor }}
                 >
+                    
+                    <Tab.Screen
+                        lazy={true}
+                        name="Regions"
+                        component={RegionsScreen}
+                        options={{
+                            tabBarIcon:({focused,color})=>(focused?<Icon name={"plus-circle"} color={color} size={25}/>:<Icon name={"plus-circle-outline"} color={color} size={25}/> )
+                        }}
+                    />
                     <Tab.Screen
                         lazy={true}
                         name="Teams"
                         component={MyTeamsScreen}
                         options={{
                             tabBarIcon:({focused,color})=>(focused?<Icon name={"home"} color={color} size={25}/>:<Icon name={"home-outline"} color={color} size={25}/> )
-                        }}
-                    />
-                    <Tab.Screen
-                        lazy={true}
-                        name="New-Team"
-                        component={RegionsScreen}
-                        options={{
-                            tabBarIcon:({focused,color})=>(focused?<Icon name={"plus-circle"} color={color} size={25}/>:<Icon name={"plus-circle-outline"} color={color} size={25}/> )
                         }}
                     />
                     <Tab.Screen
