@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "290457827807",
+    "firebase_url": "https://pokeapi-43382.firebaseio.com",
+    "project_id": "pokeapi-43382",
+    "storage_bucket": "pokeapi-43382.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290457827807:android:20bbbcc60cdf0fbcb16c6a",
+        "android_client_info": {
+          "package_name": "com.pokeapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290457827807-r33ihle2372rcu81q6t2jg5h0qt2kq26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQL1jJJovYasqNO_PBdmRNfq0P2MS0JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290457827807-r33ihle2372rcu81q6t2jg5h0qt2kq26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
