@@ -2,7 +2,8 @@ clone repository: git clone: https://github.com/gmv98/PokeApi
 
 Run repository: npx react-native run-android
 -cuentas creadas:
--pokeapis123@gmail.com pokeapis123
+
+-username: pokeapis123@gmail.com password: pokeapis123
 
 -example123@pokeapi.com example123
 
